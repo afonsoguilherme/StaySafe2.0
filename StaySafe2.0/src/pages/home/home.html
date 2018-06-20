@@ -1,0 +1,22 @@
+<ion-content class="home">
+  <ion-fab right top class="fab-create">
+    <button class="botao" ion-fab color="dark" (click)="calculateRoute()">
+      <ion-icon name='md-navigate'></ion-icon>
+    </button>
+  </ion-fab>
+
+  <div #map id="map"></div>
+
+  <ion-fab right bottom class="fab-create">
+    <button class="botao2" ion-fab color="dark" (click)="signOut()">
+      <ion-icon name='ios-log-out-outline'></ion-icon>
+    </button>
+  </ion-fab>
+  
+      <mbsc-form class="timer">
+          <div class="mbsc-form-group"> 
+              <mbsc-input [(ngModel)]="timerCenter" mbsc-timer [mbsc-options]="timerCenterSettings" placeholder="Please select...">Timer:</mbsc-input>     
+          </div>
+      </mbsc-form>
+   
+     </ion-content> 

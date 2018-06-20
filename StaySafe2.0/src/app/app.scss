@@ -1,0 +1,30 @@
+.fab-ios-dark {
+    margin: 15px;
+    color:#FEC56E !important;
+    background-color:#454545;
+}
+.alert-ios .alert-message:empty {
+    padding: 0 0 0px;
+}
+.alert-ios .alert-message, .alert-ios .alert-input-group {
+    text-align: center;
+    font-size: 13px;
+    color: inherit;
+    padding: 0 16px 16px;
+}
+.alert-ios .alert-button {
+    margin: 0;
+    border-radius: 0;
+    overflow: hidden;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-width: 50%;
+    height: 44px;
+    border-top: 0.55px solid #dbdbdf;
+    border-right: 0.55px solid #dbdbdf;
+    font-size: 17px;
+    color: #000;
+    background-color:#C9F1FD;
+}

@@ -1,0 +1,54 @@
+page-home {
+  #map {
+    height: 86%;
+    width: 100%;
+  }
+  .home{
+    background: linear-gradient( #fff 15% , #C9F1FD 85%) ;
+  }
+  .botao{
+    margin: 5px;
+    color:#FEC56E;
+    background-color:#454545;
+  }
+  .botao2{
+    margin-bottom: 70px;
+    margin-right: 5px;
+    color:#FEC56E;
+    background-color:#454545;
+  }
+  
+  .fab-create{
+    margin: 15px;
+  }
+  .timer{
+    height: 14%;
+  }
+
+.mbsc-ios .mbsc-input input {
+  height: 2.75em;
+  padding: 0 1em;
+  background: #C9F1FD;
+  }
+  .mbsc-ios .mbsc-input .mbsc-label, .mbsc-ios .mbsc-progress .mbsc-label {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -moz-box-flex: 0;
+    -moz-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: 30%;
+    max-width: 12.5em;
+    overflow: hidden;
+    font-size: 1em;
+    line-height: 2.75em;
+    color: #020202;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    background: #C9F1FD;
+}
+
+}
